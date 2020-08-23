@@ -34,7 +34,7 @@
   --ra-admonition-background-color: var(--ifm-color-primary)
 }
 
-.admonition h5 {
+.admonition .admonition-title {
   margin-top: 0;
   margin-bottom: 8px;
   text-transform: uppercase;
