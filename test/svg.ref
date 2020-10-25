@@ -14,7 +14,7 @@
             </svg></span>Note</div>
       </div>
       <div class="admonition-content">
-        <p>This is what a note looks like</p>
+        <div>This is what a note looks like</div>
       </div>
     </div>
     <div class="admonition admonition-tip alert alert--success">
@@ -24,7 +24,7 @@
             </svg></span>Tip</div>
       </div>
       <div class="admonition-content">
-        <p>It works great with docusaurus 2.0</p>
+        <div>It works great with docusaurus 2.0</div>
       </div>
     </div>
     <div class="admonition admonition-caution alert alert--warning">
@@ -34,7 +34,7 @@
             </svg></span>you can set <em>your own</em> title</div>
       </div>
       <div class="admonition-content">
-        <p>it replaces the default title</p>
+        <div>it replaces the default title</div>
       </div>
     </div>
     <div class="admonition admonition-important alert alert--info">
@@ -44,8 +44,8 @@
             </svg></span>credit</div>
       </div>
       <div class="admonition-content">
-        <p>Based on <code>remarkable-admonitions</code></p>
-        <p>SVG Icons by GitHub Octicons</p>
+        <div>Based on <code>remarkable-admonitions</code></div>
+        <div>SVG Icons by GitHub Octicons</div>
       </div>
     </div>
     <div class="admonition admonition-warning alert alert--danger">
@@ -55,7 +55,7 @@
             </svg></span>Warning</div>
       </div>
       <div class="admonition-content">
-        <p>You can't nest them</p>
+        <div>You can't nest them</div>
         <ul>
           <li>but</li>
           <li>you</li>
@@ -75,7 +75,7 @@
             </svg></span>Custom</div>
       </div>
       <div class="admonition-content">
-        <p>You can make your own custom types. The icon, keyword, and emoji can be set in the plugin options and they can be styled separately.</p>
+        <div>You can make your own custom types. The icon, keyword, and emoji can be set in the plugin options and they can be styled separately.</div>
       </div>
     </div>
   </body>
