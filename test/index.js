@@ -16,25 +16,25 @@ const diffVfile = (a, b) => {
   if (a.toString() !== b.toString()) {
     const changes = diff.diffLines(a.toString(), b.toString());
     const pretty = changes
-      .map(group => {
+      .map((group) => {
         let text = group.value;
         if (group.added) {
           return text
             .trim()
             .split("\n")
-            .map(line => `+ |${colors.green(line)}`)
+            .map((line) => `+ |${colors.green(line)}`)
             .join("\n");
         } else if (group.removed) {
           return text
             .trim()
             .split("\n")
-            .map(line => `- |${colors.red(line)}`)
+            .map((line) => `- |${colors.red(line)}`)
             .join("\n");
         } else {
           return text
             .trim()
             .split("\n")
-            .map(line => `  |${line}`)
+            .map((line) => `  |${line}`)
             .join("\n");
         }
       })
